@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Galactic Hangman</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+</head>
+<body>
+	<div id="header">
+		<h1 id="headerText">Galactic Hangman</h1>
+	</div>
+
+	<h2 id="initialOutput"></h2>
+	
+
+	<form class="gameInputs" name="myform">
+	</div id="userEntry">
+		<div>
+			<p id="displayWord">Your word is: <span id="randWord"></span>.</p>
+		</div>
+
+		<input type="text" name="text1" id="guessBox" maxlength="1"></input>
+		<input type="button" value="Submit Guess" onclick="submitLetter()" id="guessSubmit"></button>
+		<input type="button" value="Restart" onclick="restartGame()" id="restartSubmit"></button>
+		<p id="errorMsg"></p>
+	</div>
+	</form>
+
+	<div id="scoreboard" class="scoreboard">
+		<div>
+			<p>You have <span id="wrongChoicesLeft" class="userInput"></span> wrong choices remaining</p>
+		</div>
+
+		<div>
+			<p>Current Letters Guessed</p>
+			<p id="lettersGuessed" class="userInput"></p>
+		</div>
+	</div>
+	<div id="footer">
+		<h3 id="playAgain"></h3>
+	</div>
+	
+</body>
+
+	<script src="assets/javascript/game2.js"></script>
+</html>

@@ -1,0 +1,93 @@
+body{
+	text-align: center;
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 5px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 4px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 3px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	color:white;
+	font-family: 'Orbitron', sans-serif;
+}
+#header{
+	margin-left:20%;
+	margin-right:20%;
+	background-color:white;
+	text-align: center;
+	color:white;
+	border-style:solid;
+	border-color: black;
+	border-left-width:0px;
+	border-right-width:0px;
+}
+#headerText{
+	background-color:#000099;
+	padding: 10px 10% 10px 10%;
+}
+
+.gameInputs{
+	float:left;
+	width:45%;
+	background-color:#000099;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: solid white 5px;
+}
+
+#displayWord{
+	position:relative;
+}
+
+#randWord{
+	letter-spacing: 8px;
+	font-size: large;
+}
+
+#lettersGuessed{
+	letter-spacing: 8px;
+}
+
+#wrongChoicesLeft{
+	font-weight: 150%
+}
+
+#userEntry{
+		border:solid;
+}
+
+#scoreboard{
+	background-color:#000099;
+	width:45%;
+	margin-left:5px;
+	margin-right:5px;
+	float:right;
+	border: solid white 5px;
+
+}
+
+
+
+#footer{
+	margin-top:15px;
+	display:inline-block;
+	width:80%;
+	text-align:center;
+}
+
+@media only screen and (max-width: 980px) {
+	.gameInputs{
+		width:80%;
+		margin-left:10%;
+		margin-bottom:15px;
+		float:none;
+	}
+
+	#scoreboard{
+		width:80%;
+		margin-left:10%;
+		margin-bottom:5px;
+		float:none;
+	}
+}
