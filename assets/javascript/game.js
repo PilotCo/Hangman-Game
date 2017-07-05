@@ -29,7 +29,7 @@ var gamesPlayed = 0;
 function setup(){
 	validChoices = "abcdefghijklmnopqrstuvwxyz";
 	possibleWords = ['space','comet','galaxy','wormhole','earth','planet','spaceship','universe','jupiter','spacetime'];
-	wrongChoicesLeft = 1;
+	wrongChoicesLeft = 5;
 	endGame = false;
 
 	lettersGuessed = "";
