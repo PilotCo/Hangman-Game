@@ -1,3 +1,4 @@
+
 /* 
 	Title: HANGMAN
 	Written By: Cody Pilot; Date: 6/24/2017
@@ -28,8 +29,8 @@ var gamesPlayed = 0;
 // setup the game.
 function setup(){
 	validChoices = "abcdefghijklmnopqrstuvwxyz";
-	possibleWords = ['space','comet','galaxy','wormhole','earth','planet','spaceship','universe','jupiter','spacetime'];
-	wrongChoicesLeft = 1;
+	possibleWords = ['space','comet','galaxy','wormhole','earth','planet','spaceship','universe','jupiter','spacetime','star','pluto','aliens'];
+	wrongChoicesLeft = 5;
 	endGame = false;
 
 	lettersGuessed = "";
